@@ -1,5 +1,5 @@
-# CSVparser
-This was a pre-bootcamp practice exercise. The requirement was: build a simple CSV parsing function that will accept a string of comma-delimited values (which, at least for the first push, consists only of strings and integers).
+# A simple CSV parsing function
+This was a pre-bootcamp practice exercise. The requirement was: build a simple CSV parsing function that will accept a block of comma-delimited text. At the time of this first commit, the function looks for newline \n characters to break lines, and then will separate out values based on commas. It will *not* correctly notice commas that are enclosed inside quotations, and will fall short of standard CSV specs in several other ways. But it will definitely handle the kind of input noted below ...
 
 Here's an example of valid input which shouldn't raise any errors:
 
